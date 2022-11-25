@@ -1,0 +1,10 @@
+{
+  "name": "gh-non-compliance",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamondburned/gh-non-compliance.git"
+  },
+  "dependencies": {
+    "@actions/exec": "^1.1.1"
+  }
+}
