@@ -1,0 +1,9 @@
+on:
+  push:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run action
+        uses: ./.github/actions/test
