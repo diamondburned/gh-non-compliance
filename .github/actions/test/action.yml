@@ -1,7 +1,9 @@
 inputs:
   kebab-cased:
     description: Test
-    value: This is a value.
+    value: kebab's value
+  camel_cased:
+    value: camel's value
 runs:
   using: 'node16'
-  main: './.github/actions/test/main.js'
+  main: 'main.js'
