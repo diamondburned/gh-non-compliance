@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This works.
-echo "${INPUT_CAMEL_CASED}"
+echo "camel_cased = ${INPUT_CAMEL_CASED}"
 # This does not work.
-echo "${INPUT_KEBAB-CASED}"
+echo "kebab-cased = ${INPUT_KEBAB-CASED}"

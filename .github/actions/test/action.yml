@@ -1,9 +1,9 @@
 inputs:
   kebab-cased:
     description: Test
-    value: kebab's value
+    default: kebab's value
   camel_cased:
-    value: camel's value
+    default: camel's value
 runs:
   using: 'node16'
   main: 'main.js'
